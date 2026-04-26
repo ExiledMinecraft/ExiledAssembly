@@ -18,7 +18,7 @@ async:
   # One quick note - this does not actually spawn mobs async (that would be very unsafe).
   # This just offloads some expensive calculations that are required for mob spawning.
   async-mob-spawning:
-    enabled: true
+    enabled: false
   async-pathfinding:
     enabled: false
     max-threads: 0
@@ -117,20 +117,20 @@ performance:
     mob-spawning: false
     advancements: false
   optimize-block-entities: true
-  optimize-mob-despawn: false
+  optimize-mob-despawn: true
   # Whether to only tick / update items in main hand and offhand instead of the entire inventory.
   only-tick-items-in-hand: false
   optimize-no-action-time:
     disable-light-check: false
   # Whether to optimize player movement processing by skipping unnecessary edge checks and avoiding redundant view distance updates.
   optimize-player-movement: true
-  optimize-random-tick: false
+  optimize-random-tick: true
   optimize-waypoint: false
   # Whether to use optimized powered rails.
   # The implementation is based on RailOptimization made by GitHub@FxMorin
   optimized-powered-rails: false
   reduce-packets:
-    reduce-entity-move-packets: false
+    reduce-entity-move-packets: true
   skip-ai-for-non-aware-mob: true
   datapack:
     # Skip selecting inactive entities when using execute command.
@@ -320,11 +320,11 @@ misc:
   # <player_displayname> - player display name
   connection-message:
     join:
-      enabled: true
+      enabled: false
       # Join message of player
       message: default
     quit:
-      enabled: true
+      enabled: false
       # Quit message of player
       message: default
   including-5s-in-get-tps: true

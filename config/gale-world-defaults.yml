@@ -13,15 +13,15 @@
 
 _version: 1
 gameplay-mechanics:
-  arrow-movement-resets-despawn-counter: true
-  entities-can-random-stroll-into-non-ticking-chunks: true
+  arrow-movement-resets-despawn-counter: false
+  entities-can-random-stroll-into-non-ticking-chunks: false
   entity-wake-up-duration-ratio-standard-deviation: 0.2
   fixes:
     broadcast-crit-animations-as-the-entity-being-critted: false
     mc-121706: false
     mc-238526: false
-  hide-flames-on-entities-with-fire-resistance: false
-  try-respawn-ender-dragon-after-end-crystal-place: true
+  hide-flames-on-entities-with-fire-resistance: true
+  try-respawn-ender-dragon-after-end-crystal-place: false
 small-optimizations:
   load-chunks:
     to-activate-climbing-entities: false
@@ -49,5 +49,5 @@ small-optimizations:
             nearby-item-max-age: 1200
     check-stuck-in-wall: 10
     villager-item-repickup: 100
-  save-fireworks: true
+  save-fireworks: false
   use-optimized-sheep-offspring-color: true

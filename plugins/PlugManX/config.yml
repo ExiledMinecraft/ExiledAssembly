@@ -4,7 +4,7 @@
 # This takes the form of a comma separated list enclosed within the brackets.
 ###
 ignored-plugins: [ PlugMan,PlugManX,PlugManBungee,ViaVersion,ViaBackwards,ViaRewind,ProtocolSupport,ProtocolLib ]
-notify-on-broken-command-removal: true
+notify-on-broken-command-removal: false
 auto-load:
   enabled: false
   check-every-seconds: 10
@@ -14,6 +14,6 @@ auto-unload:
 auto-reload:
   enabled: false
   check-every-seconds: 10
-showPaperWarning: true
+showPaperWarning: false
 # Do not change this value
 version: 3
