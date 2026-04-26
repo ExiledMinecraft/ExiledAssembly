@@ -11,15 +11,15 @@
 # Website: https://papermc.io/
 
 advancements:
-  disable-saving: false
+  disable-saving: true
   disabled:
   - minecraft:story/disabled
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  player-shuffle: 0
-  user-cache-size: 1000
+  player-shuffle: 1
+  user-cache-size: 2000
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   timeout-time: 60
@@ -51,9 +51,9 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 0.5
-      exp: -1.0
-    mob-spawn-range: 8
+      item: 2.5
+      exp: 4.0
+    mob-spawn-range: 2
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
@@ -88,13 +88,13 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      raiders: 64
+      animals: 16
+      monsters: 16
+      raiders: 24
       misc: 16
-      water: 16
-      villagers: 32
-      flying-monsters: 32
+      water: 8
+      villagers: 16
+      flying-monsters: 16
       wake-up-inactive:
         animals-max-per-tick: 4
         animals-every: 1200
@@ -114,12 +114,12 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
-      display: 128
-      other: 64
+      players: 96
+      animals: 48
+      monsters: 48
+      misc: 48
+      display: 64
+      other: 32
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -163,10 +163,10 @@ world-settings:
   worldeditregentempworld:
     verbose: false
 players:
-  disable-saving: false
+  disable-saving: true
 config-version: 12
 stats:
-  disable-saving: false
+  disable-saving: true
   forced-stats: {}
 commands:
   tab-complete: 0
