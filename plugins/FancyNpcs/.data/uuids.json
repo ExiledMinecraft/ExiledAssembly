@@ -1,0 +1,20 @@
+[
+  {
+    "username": "Dream",
+    "uuid": "ec70bcaf-702f-4bb8-b48d-276fa52a780c",
+    "lastUpdated": 1777206309538,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "Staline",
+    "uuid": "d9d195b9-b066-4bba-9b75-e331dfd9b1fc",
+    "lastUpdated": 1777206309539,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "elyapluggin",
+    "uuid": "ad43ecb3-ba45-4f74-861c-4242fe9ea815",
+    "lastUpdated": 1777206309537,
+    "timeToLive": 2592000000
+  }
+]

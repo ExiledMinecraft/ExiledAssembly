@@ -1,0 +1,62 @@
+language_name: default
+messages:
+  color_black: "Black"
+  color_dark_blue: "Dark Blue"
+  color_dark_green: "Dark Green"
+  color_dark_aqua: "Dark Aqua"
+  color_dark_red: "Dark Red"
+  color_dark_purple: "Dark Purple"
+  color_gold: "Gold"
+  color_gray: "Gray"
+  color_dark_gray: "Dark Gray"
+  color_blue: "Blue"
+  color_green: "Green"
+  color_aqua: "Aqua"
+  color_red: "Red"
+  color_light_purple: "Light Purple"
+  color_yellow: "Yellow"
+  color_white: "White"
+
+  common:
+    hologram:
+      not_found: "{errorColor}Could not find hologram {primaryColor}{name}{secondaryColor}."
+      invalid_type: "{errorColor}This command can only be executed on holograms of the following types: {primaryColor}{types}{secondaryColor}."
+  commands:
+    fancyholograms:
+      config:
+        show:
+          settings_header: "FancyHolograms settings:"
+          experimental_header: "FancyHolograms experimental features:"
+          entry: "{secondaryColor} - {path}: {primaryColor}{value} {secondaryColor}(default: {default})"
+
+    hologram:
+      create:
+        already_exists: "{errorColor}A hologram with the name {primaryColor}{name}{errorColor} already exists."
+        no_dot: "{errorColor}Hologram names cannot contain dots."
+        canceled: "{errorColor}Hologram creation canceled."
+        success: "Successfully created hologram {primaryColor}{name}{secondaryColor} of type {primaryColor}{type}{secondaryColor}."
+      edit:
+        lines:
+          line_number_out_of_bounds: "{errorColor}Line number {primaryColor}{line}{errorColor} is out of bounds. Must be between {primaryColor}{min} {errorColor}and {primaryColor}{max}{errorColor}."
+          cannot_swap_same_line: "{errorColor}Cannot swap line {primaryColor}{line}{errorColor} with itself."
+          move_success: "Successfully moved line {primaryColor}{line}{secondaryColor} to position {primaryColor}{position}{secondaryColor}."
+          swap_success: "Successfully swapped line {primaryColor}{line1}{secondaryColor} with line {primaryColor}{line2}{secondaryColor}."
+        rotation:
+          changed: "Successfully changed the {primaryColor}{axis} {secondaryColor}rotation of hologram {primaryColor}{hologram}{secondaryColor} to {primaryColor}{angle}{secondaryColor} degrees."
+        trait:
+          not_found: "Could not find trait {primaryColor}{name}{secondaryColor}."
+          attach:
+            already_attached: "{errorColor}Hologram {primaryColor}{hologram}{errorColor} already has trait {primaryColor}{name}{errorColor} attached."
+            success: "Successfully attached trait {primaryColor}{name}{secondaryColor} to hologram {primaryColor}{hologram}{secondaryColor}."
+          detach:
+            not_attached: "{errorColor}Hologram {primaryColor}{hologram}{errorColor} does not have trait {primaryColor}{name}{errorColor} attached."
+            success: "Successfully detached trait {primaryColor}{name}{secondaryColor} from hologram {primaryColor}{hologram}{secondaryColor}."
+          list:
+            no_traits: "Hologram {primaryColor}{hologram}{secondaryColor} does not have any traits attached."
+            header: "Hologram {primaryColor}{hologram}{secondaryColor} has the following traits attached:"
+            entry: "{secondaryColor} - {primaryColor}{name}"
+        glowing:
+          invalid_color: "{errorColor}Invalid glowing color {primaryColor}{color}{{errorColor}}."
+          disabled: "Disabled glowing for hologram {primaryColor}{hologram}{secondaryColor}."
+          enabled: "Enabled glowing with color {primaryColor}{color}{secondaryColor} for hologram {primaryColor}{hologram}{secondaryColor}."
+          color_set: "Set glowing color to {primaryColor}{color}{secondaryColor} for hologram {primaryColor}{hologram}{secondaryColor}."

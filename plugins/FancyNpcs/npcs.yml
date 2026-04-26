@@ -1,0 +1,147 @@
+npcs:
+  99d0f886-4d8d-485c-9cde-085d74404c07:
+    name: BattleRoyale
+    creator: 142059c0-6ee1-30e7-8210-1aedb77aff4a
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -21.5
+      y: 12.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.2
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      identifier: elyapluggin
+      variant: AUTO
+      mirrorSkin: true
+    equipment:
+      OFFHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:shield
+        count: 1
+        schema_version: 1
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:golden_helmet
+        count: 1
+        schema_version: 1
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:iron_sword
+        count: 1
+        schema_version: 1
+    actions:
+      ANY_CLICK:
+        '1':
+          action: send_to_server
+          value: battleroyale
+  6837b7bf-670e-4002-8eb6-f948e307e43c:
+    name: political
+    creator: 157f120e-37fb-3d9d-9292-3451c4785204
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -24.50175278095979
+      y: 12.0
+      z: 8.494466170834462
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.2
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: Staline
+      variant: AUTO
+    equipment:
+      OFFHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        schema_version: 1
+        id: minecraft:air
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:crossbow
+        count: 1
+        schema_version: 1
+    actions:
+      ANY_CLICK:
+        '1':
+          action: send_to_server
+          value: Politiki
+  c6ecd22b-db87-4eff-a1d1-e9a46986fc44:
+    name: smp
+    creator: 157f120e-37fb-3d9d-9292-3451c4785204
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -24.511536128163645
+      y: 12.0
+      z: -7.524060788837817
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.2
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      identifier: Dream
+      variant: AUTO
+      mirrorSkin: false
+    equipment:
+      OFFHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:ender_pearl
+        count: 1
+        schema_version: 1
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:netherite_helmet
+        count: 1
+        schema_version: 1
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:water_bucket
+        count: 1
+        schema_version: 1
+    actions:
+      ANY_CLICK:
+        '1':
+          action: send_to_server
+          value: smp

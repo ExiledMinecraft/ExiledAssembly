@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+// 
+// DO NOT REPORT THIS TO PAPER! REPORT TO LEAF INSTEAD!
+// 
+
+Time: 2026-04-17 17:36:39
+Description: Exception in server tick loop
+
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 4 column 4 path $.backgroundProfiler
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.Gson.fromJson(Gson.java:1375)
+	at com.google.gson.Gson.fromJson(Gson.java:1262)
+	at com.google.gson.Gson.fromJson(Gson.java:1199)
+	at me.lucko.spark.paper.common.util.config.FileConfiguration.load(FileConfiguration.java:56)
+	at me.lucko.spark.paper.common.util.config.FileConfiguration.<init>(FileConfiguration.java:48)
+	at me.lucko.spark.paper.common.SparkPlatform.<init>(SparkPlatform.java:136)
+	at me.lucko.spark.paper.PaperSparkPlugin.<init>(PaperSparkPlugin.java:70)
+	at me.lucko.spark.paper.api.PaperSparkModule.create(PaperSparkModule.java:68)
+	at io.papermc.paper.SparksFly.<init>(SparksFly.java:45)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:517)
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:143)
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:166)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1185)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:298)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 4 column 4 path $.backgroundProfiler
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1754)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:574)
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:498)
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:875)
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:820)
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1144)
+	at com.google.gson.Gson.fromJson(Gson.java:1361)
+	... 15 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Linux (amd64) version 6.12.74+deb13+1-amd64
+	Java Version: 21.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 344550888 bytes (328 MiB) / 721420288 bytes (688 MiB) up to 2346713088 bytes (2238 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 85 Stepping 7
+	Microarchitecture: Cascade Lake
+	Frequency (GHz): 2.40
+	Number of physical packages: 8
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7999.11
+	Virtual memory used (MiB): 4755.80
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 100.00, total: 100.00
+	Space in storage for workdir (MiB): available: 146463.92, total: 184254.98
+	JVM Flags: 2 total; -Xms128M -XX:MaxRAMPercentage=95.0
+	CraftBukkit Information: 
+   BrandInfo: Leaf (winds-studio:leaf) version 1.21.8-175-ver/1.21.8@e30491f (2026-02-08T19:16:20Z)
+   Running: Leaf version 1.21.8-175-e30491f (MC: 1.21.8) (Implementing API version 1.21.8-R0.1-SNAPSHOT) false
+   Plugins: {}
+   Warnings: DEFAULT
+   Reload Count: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException: Cannot read field "reloadCount" because "net.minecraft.server.MinecraftServer.getServer().server" is null
+	at org.bukkit.craftbukkit.CraftCrashReport.get(CraftCrashReport.java:33)
+	at org.bukkit.craftbukkit.CraftCrashReport.get(CraftCrashReport.java:17)
+	at net.minecraft.SystemReport.setDetail(SystemReport.java:71)
+	at net.minecraft.CrashReport.<init>(CrashReport.java:39)
+	at net.minecraft.server.MinecraftServer.constructOrExtractCrashReport(MinecraftServer.java:1382)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:298)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+	Server Running: true
+	Active Data Packs: vanilla, file/bukkit, paper
+	Available Data Packs: file/bukkit, minecart_improvements, paper, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: 3765486964684554346
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'Leaf'
+	Type: Dedicated Server (map_server.txt)

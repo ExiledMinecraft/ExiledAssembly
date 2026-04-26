@@ -1,0 +1,94 @@
+[12:09:08] [User Authenticator #11/INFO]: UUID of player DecoLoca is 157f120e-37fb-3d9d-9292-3451c4785204
+[12:09:09] [Server thread/INFO]: DecoLoca joined the game
+[12:09:09] [Server thread/INFO]: DecoLoca[/176.126.14.88:57426] logged in with entity id 25 at ([world]20.5, 12.0, 0.5)
+[12:09:57] [Server thread/INFO]: DecoLoca lost connection: Disconnected
+[12:09:57] [Server thread/INFO]: DecoLoca left the game
+[12:12:54] [User Authenticator #12/INFO]: UUID of player DecoLoca is 157f120e-37fb-3d9d-9292-3451c4785204
+[12:12:54] [Server thread/INFO]: DecoLoca joined the game
+[12:12:54] [Server thread/INFO]: DecoLoca[/176.126.14.88:58414] logged in with entity id 26 at ([world]-20.35171220495126, 12.0, 0.6860708305580028)
+[12:13:33] [Server thread/INFO]: Made DecoLoca a server operator
+[12:14:58] [Server thread/INFO]: DecoLoca issued server command: /npc create political
+[12:16:39] [User Authenticator #13/INFO]: UUID of player RazWars is 52b046b3-b221-3636-8cd4-c1851bd22b60
+[12:16:39] [Server thread/INFO]: RazWars joined the game
+[12:16:39] [Server thread/INFO]: RazWars[/95.25.52.222:54282] logged in with entity id 28 at ([world]20.5, 12.0, 0.5)
+[12:17:17] [User Authenticator #13/INFO]: UUID of player VicTim123 is e637ccc7-3276-385a-906f-fdb2cfd65ba7
+[12:17:18] [Server thread/INFO]: VicTim123 joined the game
+[12:17:18] [Server thread/INFO]: VicTim123[/159.195.64.76:38716] logged in with entity id 29 at ([world]56.56133677162673, 168.0, -72.84905555398973)
+[12:17:21] [Server thread/INFO]: DecoLoca issued server command: /npc action political any_click add send_to_server Politiki
+[12:17:28] [Server thread/INFO]: RazWars lost connection: Disconnected
+[12:17:28] [Server thread/INFO]: RazWars left the game
+[12:17:58] [User Authenticator #13/INFO]: UUID of player RazWars is 52b046b3-b221-3636-8cd4-c1851bd22b60
+[12:17:58] [Server thread/INFO]: RazWars joined the game
+[12:17:58] [Server thread/INFO]: RazWars[/95.25.52.222:37444] logged in with entity id 30 at ([world]-20.274607447801184, 12.0, -0.0983190836845208)
+[12:18:06] [Server thread/INFO]: RazWars lost connection: Disconnected
+[12:18:06] [Server thread/INFO]: RazWars left the game
+[12:18:09] [User Authenticator #13/INFO]: UUID of player RazWars is 52b046b3-b221-3636-8cd4-c1851bd22b60
+[12:18:09] [Server thread/INFO]: RazWars joined the game
+[12:18:09] [Server thread/INFO]: RazWars[/95.25.52.222:47926] logged in with entity id 31 at ([world]-19.9287268153882, 11.5, -0.1084211898742174)
+[12:18:19] [Server thread/INFO]: DecoLoca issued server command: /npc displayname political @none
+[12:18:24] [Server thread/INFO]: DecoLoca issued server command: /npc displayname BattleRoyale @none
+[12:19:06] [Server thread/INFO]: DecoLoca issued server command: /gamemode creative
+[12:19:06] [Server thread/INFO]: [DecoLoca: Set own game mode to Creative Mode]
+[12:19:34] [Server thread/INFO]: DecoLoca issued server command: /npc equipment BattleRoyale set mainhand minecraft:iron_sword
+[12:19:42] [Server thread/INFO]: DecoLoca issued server command: /npc equipment BattleRoyale set offhand minecraft:shield
+[12:19:53] [Server thread/INFO]: DecoLoca issued server command: /npc equipment BattleRoyale set head minecraft:golden_helmet
+[12:20:38] [Server thread/INFO]: RazWars lost connection: Disconnected
+[12:20:38] [Server thread/INFO]: RazWars left the game
+[12:20:41] [User Authenticator #14/INFO]: UUID of player RazWars is 52b046b3-b221-3636-8cd4-c1851bd22b60
+[12:20:41] [Server thread/INFO]: RazWars joined the game
+[12:20:41] [Server thread/INFO]: RazWars[/95.25.52.222:34004] logged in with entity id 32 at ([world]-20.528591788159712, 12.0, 1.7921897102084223)
+[12:20:45] [Server thread/INFO]: DecoLoca issued server command: /npc skin political Staline
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from mem cache: Staline
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from file cache: Staline
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Skin not found in cache: Staline
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Cached UUID for Staline: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from mem cache: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from file cache: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Skin not found in cache: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Fetching skin from Mojang: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:45] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Fetching skin from MojangAPI for d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Skin fetched from MojangAPI for d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Found UUID for elyapluggin: ad43ecb3-ba45-4f74-861c-4242fe9ea815 in file cache
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Cached UUID for elyapluggin: ad43ecb3-ba45-4f74-861c-4242fe9ea815
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Found UUID for Staline: d9d195b9-b066-4bba-9b75-e331dfd9b1fc in file cache
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) DEBUG: Cached UUID for Staline: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:20:46] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-4) INFO: Updated skin for NPC: political
+[12:21:03] [Server thread/INFO]: DecoLoca issued server command: /npc rotate political
+[12:21:13] [Server thread/INFO]: DecoLoca issued server command: /npc rotate political -90 0
+[12:22:02] [Server thread/INFO]: DecoLoca issued server command: /npc scale political 1.2
+[12:22:06] [Server thread/INFO]: DecoLoca issued server command: /npc scale BattleRoyalepolitical 1.2
+[12:22:09] [Server thread/INFO]: DecoLoca issued server command: /npc scale BattleRoyale 1.2
+[12:22:40] [Server thread/INFO]: DecoLoca issued server command: /npc create anarchy
+[12:22:48] [Server thread/INFO]: DecoLoca issued server command: /npc displayname anarchy @none
+[12:23:57] [Server thread/INFO]: DecoLoca issued server command: /npc remove anarchy
+[12:24:06] [Server thread/INFO]: DecoLoca issued server command: /npc create smp
+[12:24:11] [Server thread/INFO]: DecoLoca issued server command: /npc displayname smp @none
+[12:25:08] [Server thread/INFO]: DecoLoca issued server command: /npc skin smp Dream
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from mem cache: Dream
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from file cache: Dream
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Skin not found in cache: Dream
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Cached UUID for Dream: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from mem cache: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Trying to get skin from file cache: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) DEBUG: Skin not found in cache: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Fetching skin from Mojang: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Fetching skin from MojangAPI for ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Skin fetched from MojangAPI for ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Found UUID for elyapluggin: ad43ecb3-ba45-4f74-861c-4242fe9ea815 in file cache
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Cached UUID for elyapluggin: ad43ecb3-ba45-4f74-861c-4242fe9ea815
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Found UUID for Dream: ec70bcaf-702f-4bb8-b48d-276fa52a780c in file cache
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Cached UUID for Dream: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) INFO: Updated skin for NPC: smp
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Found UUID for Staline: d9d195b9-b066-4bba-9b75-e331dfd9b1fc in file cache
+[12:25:09] [FancyLogger/INFO]: [FancyNpcs] (FancyNpcs-Skins-2) DEBUG: Cached UUID for Staline: d9d195b9-b066-4bba-9b75-e331dfd9b1fc
+[12:25:14] [Server thread/INFO]: DecoLoca issued server command: /npc scale smp 1.2
+[12:25:22] [Server thread/INFO]: DecoLoca issued server command: /npc rotate smp -90 0
+[12:26:04] [Server thread/INFO]: DecoLoca issued server command: /npc equipment smp set head minecraft:netherite_helmet
+[12:26:18] [Server thread/INFO]: DecoLoca issued server command: /npc equipment smp set mainhand minecraft:water_bucket
+[12:26:35] [Server thread/INFO]: DecoLoca issued server command: /npc equipment smp set offhand minecraft:ender_pearl
+[12:26:54] [Server thread/INFO]: DecoLoca issued server command: /npc equipment political set mainhand minecraft:crossbow
+[12:27:08] [Server thread/INFO]: DecoLoca issued server command: /npc equipment political set offhand minecraft:arrow
+[12:27:11] [Server thread/INFO]: DecoLoca issued server command: /npc equipment political set offhand @hand
+[12:28:34] [Server thread/INFO]: DecoLoca issued server command: /npc action smp any_click add send_to_server smp
+[12:32:00] [Server thread/INFO]: VicTim123 lost connection: Disconnected
+[12:32:00] [Server thread/INFO]: VicTim123 left the game
