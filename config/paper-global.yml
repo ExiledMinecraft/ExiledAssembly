@@ -40,14 +40,14 @@ chunk-loading-advanced:
   player-max-concurrent-chunk-loads: 0
 chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
-  player-max-chunk-load-rate: 100.0
-  player-max-chunk-send-rate: 75.0
+  player-max-chunk-load-rate: 40.0
+  player-max-chunk-send-rate: 40.0
 chunk-system:
   gen-parallelism: default
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: true
+  enable-player-collisions: false
   send-full-pos-for-hard-colliding-entities: true
 commands:
   ride-command-allow-player-as-vehicle: false
@@ -86,9 +86,9 @@ misc:
   client-interaction-leniency-distance: default
   compression-level: default
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 5
+  max-joins-per-tick: 3
   prevent-negative-villager-demand: false
-  region-file-cache-size: 256
+  region-file-cache-size: 64
   send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -120,7 +120,7 @@ scoreboards:
   save-empty-scoreboard-teams: true
   track-plugin-scoreboards: false
 spam-limiter:
-  incoming-packet-threshold: 300
+  incoming-packet-threshold: 200
   recipe-spam-increment: 1
   recipe-spam-limit: 20
   tab-spam-increment: 1

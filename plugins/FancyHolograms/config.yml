@@ -1,13 +1,13 @@
 settings:
   spawn_delay_on_join_ms: 300 # The delay after player join before holograms are spawned, in milliseconds.
-  visibility_distance: 20 # The default visibility distance for holograms.
+  visibility_distance: 16 # The default visibility distance for holograms.
   logging:
     version_notification: false # Whether version notifications are muted.
     level: INFO # The log level for the plugin (DEBUG, INFO, WARN, ERROR).
   saving:
     autosave:
       enabled: true # Whether autosave is enabled.
-      interval: 15 # The interval at which autosave is performed in minutes.
+      interval: 30 # The interval at which autosave is performed in minutes.
     save_on_changed: true # Whether the plugin should save holograms when they are changed.
   register_commands: true # Whether the plugin should register its commands.
   language: default # The language to use for the plugin.
@@ -18,17 +18,17 @@ experimental_features:
   enable_rotation_improvement: false # When enabled, hologram rotation will be done on display entities instead of the normal entity location
   enable_folia_visibility_fix: false # When enabled, all holograms will respawn after 100ms when they should spawn
 performance:
-  hologram_update_interval_ms: 200 # The interval at which holograms check for text updates (in milliseconds). Lower values = more responsive but higher CPU usage. Recommended: 200-500ms
+  hologram_update_interval_ms: 500 # The interval at which holograms check for text updates (in milliseconds). Lower values = more responsive but higher CPU usage. Recommended: 200-500ms
 config_version: 1 # Config version, do not modify.
 saving:
   autosave:
     enabled: true # Whether autosave is enabled.
-    interval: 15 # The interval at which autosave is performed in minutes.
+    interval: 30 # The interval at which autosave is performed in minutes.
   save_on_changed: true # Whether the plugin should save holograms when they are changed.
 logging:
   log_level: INFO # The log level for the plugin (DEBUG, INFO, WARN, ERROR).
   log_on_world_load: true # Whether hologram loading should be logged on world loading. Disable this if you load worlds dynamically to prevent console spam.
-  version_notifications: true # Whether the plugin should send notifications for new updates.
-visibility_distance: 20 # The default visibility distance for holograms.
+  version_notifications: false # Whether the plugin should send notifications for new updates.
+visibility_distance: 16 # The default visibility distance for holograms.
 register_commands: true # Whether the plugin should register its commands.
-update_visibility_interval: 20 # The interval at which hologram visibility is updated in ticks.
+update_visibility_interval: 40 # The interval at which hologram visibility is updated in ticks.
