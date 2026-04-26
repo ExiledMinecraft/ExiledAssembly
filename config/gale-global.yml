@@ -13,23 +13,23 @@
 
 _version: 1
 gameplay-mechanics:
-  enable-book-writing: true
+  enable-book-writing: false
 log-to-console:
   chat:
     empty-message-warning: false
     expired-message-warning: false
-    not-secure-marker: true
-  ignored-advancements: true
+    not-secure-marker: false
+  ignored-advancements: false
   invalid-legacy-text-component: true
   invalid-statistics: true
   legacy-material-initialization: false
-  null-id-disconnections: true
-  player-login-locations: true
+  null-id-disconnections: false
+  player-login-locations: false
   plugin-library-loader:
-    downloads: true
-    library-loaded: true
-    start-load-libraries-for-plugin: true
-  set-block-in-far-chunk: true
+    downloads: false
+    library-loaded: false
+    start-load-libraries-for-plugin: false
+  set-block-in-far-chunk: false
   unrecognized-recipes: false
 misc:
   ignore-null-legacy-structure-data: false
@@ -39,7 +39,7 @@ misc:
     add-oversleep: false
     enabled: false
   premium-account-slow-login-timeout: -1
-  verify-chat-order: true
+  verify-chat-order: false
 small-optimizations:
   reduced-intervals:
     increase-time-statistics: 20

@@ -47,7 +47,7 @@ chunk-system:
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: true
+  enable-player-collisions: false
   send-full-pos-for-hard-colliding-entities: true
 commands:
   ride-command-allow-player-as-vehicle: false
@@ -86,9 +86,9 @@ misc:
   client-interaction-leniency-distance: default
   compression-level: default
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 5
+  max-joins-per-tick: 3
   prevent-negative-villager-demand: false
-  region-file-cache-size: 256
+  region-file-cache-size: 32
   send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -117,17 +117,17 @@ proxies:
     online-mode: true
     secret: yYTUb0RB0Y559lNz0QlbGWb7PAEiwv1nYD27h3sGuyM
 scoreboards:
-  save-empty-scoreboard-teams: true
+  save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
 spam-limiter:
-  incoming-packet-threshold: 300
+  incoming-packet-threshold: 200
   recipe-spam-increment: 1
   recipe-spam-limit: 20
   tab-spam-increment: 1
   tab-spam-limit: 500
 spark:
   enable-immediately: false
-  enabled: true
+  enabled: false
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false

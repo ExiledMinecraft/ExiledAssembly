@@ -15,11 +15,11 @@ advancements:
   disabled:
   - minecraft:story/disabled
 settings:
-  bungeecord: false
-  save-user-cache-on-stop-only: false
+  bungeecord: true
+  save-user-cache-on-stop-only: true
   sample-count: 12
   player-shuffle: 0
-  user-cache-size: 1000
+  user-cache-size: 200
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   timeout-time: 60
@@ -35,8 +35,8 @@ settings:
       max: 1024.0
     attackDamage:
       max: 2048.0
-  log-villager-deaths: true
-  log-named-deaths: true
+  log-villager-deaths: false
+  log-named-deaths: false
   debug: false
 messages:
   whitelist: You are not whitelisted on this server!
@@ -53,11 +53,11 @@ world-settings:
       item: 0.5
       exp: -1.0
     mob-spawn-range: 0
-    item-despawn-rate: 6000
+    item-despawn-rate: 1200
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: false
+    nerf-spawner-mobs: true
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
@@ -89,11 +89,11 @@ world-settings:
     entity-activation-range:
       animals: 0
       monsters: 0
-      raiders: 64
+      raiders: 0
       misc: 0
       water: 0
-      villagers: 32
-      flying-monsters: 32
+      villagers: 0
+      flying-monsters: 0
       wake-up-inactive:
         animals-max-per-tick: 4
         animals-every: 1200
@@ -109,16 +109,16 @@ world-settings:
         flying-monsters-for: 100
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
-      villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      villagers-active-for-panic: false
+      tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
-      display: 128
-      other: 64
+      players: 48
+      animals: 32
+      monsters: 32
+      misc: 32
+      display: 48
+      other: 32
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -161,15 +161,15 @@ world-settings:
     thunder-chance: 100000
     verbose: false
 players:
-  disable-saving: false
+  disable-saving: true
 config-version: 12
 stats:
-  disable-saving: false
+  disable-saving: true
   forced-stats: {}
 commands:
   tab-complete: 0
   send-namespaced: true
-  log: true
+  log: false
   spam-exclusions:
   - /skill
   silent-commandblock-console: false

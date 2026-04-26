@@ -225,7 +225,7 @@ limbo:
 # Общие настройки безопасности.
 security:
   # Устанавливает время аутентификации игрока (в секундах).
-  auth-timeout: 90
+  auth-timeout: 45
   
   # Устанавливает, будут ли команды nLogin с высокой степенью риска отключены в игре.
   # - Эта опция может предотвратить хакерские атаки, удаляющие регистрацию администратора.
@@ -366,22 +366,22 @@ ui:
   show-dialogs: NONE
   
   # Устанавливает, будут ли отправляться экранные сообщения.
-  use-title-bar: true
+  use-title-bar: false
   
   # Устанавливает, будут ли отправляться сообщения на панелях действий.
-  use-action-bar: true
+  use-action-bar: false
   
   # Устанавливает, будет ли отправляться сообщение об оставшемся времени.
-  use-action-bar-timer: true
+  use-action-bar-timer: false
   
   # Устанавливает, будут ли отправляться звуковые эффекты.
-  use-sounds: true
+  use-sounds: false
   
   # Определяет, будут ли сообщения чата отключены до завершения аутентификации.
-  remove-chat-messages: true
+  remove-chat-messages: false
   
   # Устанавливает, будет ли удаляться входное сообщение.
-  remove-join-message: false
+  remove-join-message: true
   
   # Определите, должен ли язык nLogin быть адаптирован к языку Minecraft.
   language-by-client: false
@@ -433,12 +433,12 @@ commands:
     description: Команда изменения зарегистрированного пароля.
     permission: null
   discord:
-    enable: true
+    enable: false
     commands: [discord]
     description: Команда для управления 2FA с помощью учетных записей Discord.
     permission: nlogin.command.discord
   email:
-    enable: true
+    enable: false
     commands: [email]
     description: Команда для управления 2FA с помощью учетных записей электронной
       почты.
@@ -449,17 +449,17 @@ commands:
     description: Команда для входа на сервер.
     permission: null
   offline:
-    enable: true
+    enable: false
     commands: [offline, cracked]
     description: Команда для пометки учетной записи как автономной.
     permission: null
   premium:
-    enable: true
+    enable: false
     commands: [premium]
     description: Команда для пометки учетной записи как премиум.
     permission: null
   recover:
-    enable: true
+    enable: false
     commands: [recover]
     description: Команда восстановления доступа к зарегистрированным счетам.
     permission: null
