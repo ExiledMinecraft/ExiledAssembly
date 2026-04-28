@@ -1,0 +1,12 @@
+{
+  "maxEntitiesPerClusterCrowd": 10,
+  "mobsToPreventFromCrowding": [
+    "COW",
+    "CHICKEN",
+    "PIG",
+    "SHEEP",
+    "PIG"
+  ],
+  "preventEntityBubbling": true,
+  "enabled": true
+}

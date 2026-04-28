@@ -1,0 +1,10 @@
+{
+  "entitiedToPreventFromBeingBubbled": [
+    "ARROW",
+    "ARMOR_STAND",
+    "MINECART",
+    "ENDER_PEARL",
+    "SNOWBALL"
+  ],
+  "enabled": true
+}

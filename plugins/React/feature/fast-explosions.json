@@ -1,0 +1,9 @@
+{
+  "maxPrimesPerTick": 3,
+  "spreadPrimedFuseTicks": 7,
+  "maxExplosionChainsPerTick": 3,
+  "fastBlockUpdates": true,
+  "disableEntityChainReactions": false,
+  "explosionChainReactions": false,
+  "enabled": true
+}

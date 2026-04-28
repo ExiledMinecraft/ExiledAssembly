@@ -1,0 +1,20 @@
+{
+  "updateCooldownSeconds": 120,
+  "viewDistance": {
+    "min": 2.0,
+    "max": 16.0
+  },
+  "simulationDistance": {
+    "min": 2.0,
+    "max": 10.0
+  },
+  "lerpTickTime": {
+    "min": 10.0,
+    "max": 100.0
+  },
+  "lerpPlayersOnline": {
+    "min": 3.0,
+    "max": 100.0
+  },
+  "enabled": true
+}

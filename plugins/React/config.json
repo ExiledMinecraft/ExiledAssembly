@@ -1,0 +1,122 @@
+{
+    "priority": {
+        "consideredNewTicks": 1200,
+        "oldMultiplier": 0.6,
+        "crowdMultiplier": 0.9,
+        "newMultiplier": 1.15,
+        "consumableMultiplier": 10,
+        "mechanicMultiplier": 25,
+        "lowTickMultiplier": 2,
+        "bossMultiplier": 20,
+        "movingMultiplier": 1.1,
+        "stationaryMultiplier": 3,
+        "highValueMultiplier": 7,
+        "ephemeralMultiplier": 30,
+        "lowValueMultiplier": 0.65,
+        "tameableMultiplier": 2.5,
+        "tamedMultiplier": 15,
+        "babyMultiplier": 1.4,
+        "adultMultiplier": 0.9,
+        "ambientMultiplier": 0.5,
+        "waterMultiplier": 0.75,
+        "projectileMultiplier": 1.5,
+        "vehicleMultiplier": 4.5,
+        "rideMultiplier": 1.08,
+        "monsterMultiplier": 1.25,
+        "passiveMultiplier": 1.15,
+        "villageMultiplier": 6.5,
+        "livingMultiplier": 5,
+        "fullHealthMultiplier": 0.75,
+        "lowHealthMultiplier": 1.35,
+        "nearbyPlayerMaxDistance": 64,
+        "nearbyPlayerMultiplier": 1.65,
+        "farPlayerMultiplier": 0.7,
+        "itemStackValueMultiplier": 1.5,
+        "useItemStackValueSystem": true
+    },
+    "value": {
+        "baseValue": 100,
+        "maxRecipeListPrecaution": 50,
+        "valueMutlipliers": {
+            "DIAMOND": 25,
+            "NETHER_QUARTZ_ORE": 1.11,
+            "COBBLESTONE": 0.1,
+            "ENDER_PEARL": 75,
+            "REDSTONE_ORE": 4.5,
+            "CARROT": 1.25,
+            "ACACIA_LOG": 0.1,
+            "CHICKEN": 1.13,
+            "LAPIS_ORE": 3.5,
+            "LEATHER": 1.5,
+            "OAK_LOG": 0.25,
+            "COAL_ORE": 1.35,
+            "MANGROVE_LOG": 0.1,
+            "EGG": 1.335,
+            "BIRCH_LOG": 0.1,
+            "PORKCHOP": 1.125,
+            "DIRT": 0.01,
+            "GHAST_TEAR": 100,
+            "NETHER_GOLD_ORE": 4.5,
+            "DIAMOND_ORE": 7,
+            "WHEAT": 1.25,
+            "IRON_ORE": 1.75,
+            "NETHERITE_INGOT": 75,
+            "JUNGLE_LOG": 0.1,
+            "BEETROOT": 1.25,
+            "BLAZE_ROD": 50,
+            "SPRUCE_LOG": 0.1,
+            "FLINT": 1.35,
+            "NETHER_STAR": 125,
+            "GOLD_ORE": 4,
+            "BEEF": 1.125,
+            "MUTTON": 1.125,
+            "DARK_OAK_LOG": 0.1
+        }
+    },
+    "customColors": true,
+    "verbose": false,
+    "debug": false,
+    "monitoring": {"monitorConfiguration": {"groups": [
+        {
+            "color": "#00ff73",
+            "name": "CPU",
+            "samplers": [
+                "ticks-per-second",
+                "tick-time",
+                "processor-process-load",
+                "processor-system-load",
+                "processor-outside",
+                "react-async-tick-time",
+                "react-jobs-queue"
+            ]
+        },
+        {
+            "color": "#ee00ff",
+            "name": "Memory",
+            "samplers": [
+                "memory-used-after-gc",
+                "memory-pressure"
+            ]
+        },
+        {
+            "color": "#42cbf5",
+            "name": "World",
+            "samplers": [
+                "chunks",
+                "entities",
+                "players"
+            ]
+        },
+        {
+            "color": "#f25a02",
+            "name": "Physics",
+            "samplers": [
+                "physics-tick-time",
+                "redstone-tick-time",
+                "fluid-tick-time",
+                "hopper-tick-time"
+            ],
+            "head": "physics-tick-time"
+        }
+    ]}}
+}

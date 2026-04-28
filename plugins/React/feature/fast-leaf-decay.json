@@ -1,0 +1,17 @@
+{
+  "leafDecayDistance": 6,
+  "leafDecayRadius": 5,
+  "maxAsyncMS": 10.0,
+  "maxSyncSpikeMS": 10.0,
+  "tickIntervalMS": 250,
+  "decayTriggerCooldownMS": 250,
+  "decayTickSpread": 20,
+  "soundChance": 0.25,
+  "soundVolume": 0.26,
+  "soundPitch": 0.2,
+  "forceDecayPersistent": false,
+  "playSounds": true,
+  "fastBlockChanges": true,
+  "decaySound": "minecraft:block.azalea_leaves.fall",
+  "enabled": true
+}

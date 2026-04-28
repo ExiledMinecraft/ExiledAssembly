@@ -1,0 +1,5 @@
+{
+  "maxItemsPerBundle": 64,
+  "searchRadius": 3.0,
+  "enabled": true
+}

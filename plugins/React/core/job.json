@@ -1,0 +1,7 @@
+{
+  "maxComputeTime": 1.0,
+  "maxSpikeInterval": 250,
+  "currentComputeTarget": 0.01,
+  "highUtilizationThresholdPercent": 0.75,
+  "lowUtilizationThresholdPercent": 0.25
+}

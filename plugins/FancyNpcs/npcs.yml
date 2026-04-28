@@ -1,0 +1,61 @@
+npcs:
+  20119fc1-4dfe-4aa1-a08a-38122903c90e:
+    name: lobby
+    creator: 142059c0-6ee1-30e7-8210-1aedb77aff4a
+    displayName: lobby
+    type: PLAYER
+    location:
+      world: world_lobby_waiting
+      x: -0.1784880608821612
+      y: 65.0
+      z: 1.6414770445838327
+      yaw: -85.034515
+      pitch: 76.96375
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: console_command
+          value: bmv tp world_lobby_main {player}
+  7c5b2fcc-3ba9-4d85-a6ce-32cb688c8883:
+    name: classic
+    creator: 142059c0-6ee1-30e7-8210-1aedb77aff4a
+    displayName: classic
+    type: PLAYER
+    location:
+      world: world_lobby_main
+      x: 3.121896128343032
+      y: 141.0
+      z: 1.802625712690156
+      yaw: 134.92587
+      pitch: 36.061073
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: console_command
+          value: bmv tp world_lobby_waiting {player}

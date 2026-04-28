@@ -1,0 +1,47 @@
+{
+    "monitorConfiguration": {"groups": [
+        {
+            "color": "#00ff73",
+            "name": "CPU",
+            "samplers": [
+                "ticks-per-second",
+                "tick-time",
+                "processor-process-load",
+                "processor-system-load",
+                "processor-outside",
+                "react-async-tick-time",
+                "react-jobs-queue"
+            ]
+        },
+        {
+            "color": "#ee00ff",
+            "name": "Memory",
+            "samplers": [
+                "memory-used-after-gc",
+                "memory-pressure"
+            ]
+        },
+        {
+            "color": "#42cbf5",
+            "name": "World",
+            "samplers": [
+                "chunks",
+                "entities",
+                "players"
+            ]
+        },
+        {
+            "color": "#f25a02",
+            "name": "Physics",
+            "samplers": [
+                "physics-tick-time",
+                "redstone-tick-time",
+                "fluid-tick-time",
+                "hopper-tick-time"
+            ],
+            "head": "physics-tick-time"
+        }
+    ]},
+    "actionBarMonitoring": false,
+    "visualizing": false
+}

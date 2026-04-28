@@ -1,0 +1,8 @@
+{
+  "teleportBlockDrops": true,
+  "teleportBlockXP": true,
+  "teleportEntityDrops": true,
+  "teleportEntityXP": true,
+  "allowContainerDrops": false,
+  "enabled": true
+}

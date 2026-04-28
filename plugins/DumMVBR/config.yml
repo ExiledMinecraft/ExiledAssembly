@@ -1,0 +1,6 @@
+# the world to which players will be transported from BattleRoyaleBlacklistWorlds
+BattleRoyaleMainHub: "world_br_hub"
+
+# worlds from which players will be transferred to the BattleRoyaleMainHub
+# BattleRoyaleBlacklistWorlds:
+#  - "world1"

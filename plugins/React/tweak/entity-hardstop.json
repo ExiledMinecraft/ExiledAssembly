@@ -1,0 +1,6 @@
+{
+  "maxEntitiesPerChunk": 100,
+  "allowItemDrops": true,
+  "cacheIntervalTicks": 200,
+  "enabled": true
+}
